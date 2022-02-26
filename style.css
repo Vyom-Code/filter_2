@@ -1,0 +1,40 @@
+h3{
+    font-size: 35px !important;
+}
+
+.btn-success:hover{
+    background-color: aquamarine;
+    color:black;
+    font-weight: bolder;
+    animation-name: Button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+canvas{
+    animation-name: Vyom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vyom{
+    from {box-shadow: 1px 1px 35px blue;}
+   to {box-shadow: 1px 1px 35px green;}
+}
+@keyframes Button{
+    from {box-shadow: 1px 1px 35px blue;}
+    to {box-shadow: 1px 1px 35px green;}
+}
+.btn-success{
+    font-size: 35px;
+}
+body{
+    background-color: cornflowerblue;
+}
+
+img{
+    width:70px;
+    height:70px;
+    border-radius: 40%;
+    
+}
